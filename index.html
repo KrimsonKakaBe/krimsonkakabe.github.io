@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voandalana Ami du Voyageur | Acceuil</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <!-- Logo à gauche -->
+            <div class="logo">
+                <img src="images/logo_voandalana.png" alt="Logo du site">
+            </div>
+
+            <!-- Barre de recherche au centre -->
+            <div class="search-bar">
+                <input type="text" placeholder="Rechercher...">
+                <button type="submit">Rechercher</button>
+            </div>
+
+            <!-- Menu de navigation à droite -->
+            <nav>
+                <ul>
+                    <li><a href="index.html">ACCUEIL</a></li>
+                    <li><a href="articles.html">ARTICLES</a></li>
+                    <li><a href="about.html">À PROPOS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="connexion.html">CONNEXION</a></li>
+                </ul>
+            </nav>
+
+            <!-- Menu déroulant pour les langues avec drapeaux -->
+            <div class="menu-langue">
+                <select id="language-selector">
+                    <option value="fr" data-flag="fr">🇫🇷 Français</option>
+                    <option value="en" data-flag="en">🇬🇧 English</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Menu bar scroll -->
+
+            <div class="header-bar">
+                <div class="scrolling-text">
+                    <p>Voandalana Ami du Voyageur : chaque vendredi, des destinations uniques et des récits inspirants. Rejoignez-nous pour des aventures inoubliables! | 07 octobre 2024</p>
+                </div>
+            </div>
+        
+    </header>
+
+    <main>
+
+        <!-- Menu -->
+        <div class="menu-header">
+            <div class="menu-container">
+                <div class="logo_menu">Voandalana</div>
+                <div class="menu-toggle" onclick="toggleMenu()">☰ Menu</div>
+                <nav class="menu">
+                    <ul class="menu-items">
+                        <li class="menu_li"><a href="index.html">Accueil</a></li>
+                        <li class="menu_li"><a href="articles.html">Articles</a></li>
+                        <li class="menu_li"><a href="about.html">À propos</a></li>
+                        <li class="menu_li"><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        
+        
+        
+        
+        <section class="hero-section">
+            <h1>Explorez le monde avec Voandalana Ami du Voyageur !</h1>
+            <p>Nous sommes heureux de vous accueillir sur notre plateforme dédiée aux passionnés de voyage. 
+                Depuis décembre 2011, notre magazine inspire les aventuriers du monde entier.</p>
+        </section>
+    
+        <!-- Section "À la une" -->
+        <h2 class="une">À la une</h2>
+        <section class="featured-article">
+            <div class="article-content">
+                <img class="Nosy_Be" src="images/images-articles/santabary.png" alt="Image à la Une">
+                <div class="article-text">
+                    <h3>La fête du Santabary</h3>
+                    <p class="legende-haut"><strong>La grande délaissée de la tradition
+                        paysanne et coutume malgache !</strong> <br>
+                        (Il semble que le <strong><em>Faranno</em></strong> est aussi de plus en plus méconnue par la population
+                        malagasy, du moins sur les hautes terres.) </p>
+                    
+                    <p>Faut-il fêter encore le Santabary ? Il se peut que des questions surgissent à propos du
+                        Santabary, une fête de plus en plus méconnue actuellement, pour ne pas dire une grande
+                        délaissée de la tradition paysanne, voire de la coutume ancestrale malgache. Combien de
+                        jeunes malgaches de la génération contemporaine savent quelque chose sur le Santabary ?
+                        Déjà, le sens même du mot pose un problème. </p>
+                    <p>C’est quoi le <strong>Santabary</strong> ? ...</p>
+                    <a href="Articles/Santabary/santabary.html" class="read-more">Lire la suite</a>
+                </div>
+            </div>
+        </section>
+    
+          <!-- Section pour les articles supplémentaires -->
+     <section class="additional-articles">
+        <h2 class="article-recent">Articles récents</h2>
+        <div class="articles-grid">
+            <article class="article-item">
+                <img src="images/Especes_Endemiques/lemuriens2.jpg" alt="Miniature 1" class="thumbnail">
+                <h3>Espèces Endémiques de Madagascar</h3>
+                <p>Au bord de leur extinction ...</p>
+                <a href="#" class="read-more">Lire la suite</a>
+            </article>
+            <article class="article-item">
+                <img src="thumbnail2.jpg" alt="Miniature 2" class="thumbnail">
+                <h3>Titre de l'article 2</h3>
+                <p>Un aperçu de l'article 2...</p>
+                <a href="#" class="read-more">Lire la suite</a>
+            </article>
+            <article class="article-item">
+                <img src="thumbnail3.jpg" alt="Miniature 3" class="thumbnail">
+                <h3>Titre de l'article 3</h3>
+                <p>Un aperçu de l'article 3...</p>
+                <a href="#" class="read-more">Lire la suite</a>
+            </article>
+            <article class="article-item">
+                <img src="thumbnail4.jpg" alt="Miniature 4" class="thumbnail">
+                <h3>Titre de l'article 4</h3>
+                <p>Un aperçu de l'article 4...</p>
+                <a href="#" class="read-more">Lire la suite</a>
+            </article>
+            <article class="article-item">
+                <img src="thumbnail5.jpg" alt="Miniature 4" class="thumbnail">
+                <h3>Titre de l'article 5</h3>
+                <p>Un aperçu de l'article 5...</p>
+                <a href="#" class="read-more">Lire la suite</a>
+            </article>
+            <article class="article-item">
+                <img src="thumbnail6.jpg" alt="Miniature 4" class="thumbnail">
+                <h3>Titre de l'article 6</h3>
+                <p>Un aperçu de l'article 6...</p>
+                <a href="#" class="read-more">Lire la suite</a>
+            </article>
+            <!-- Ajoutez d'autres articles au besoin -->
+        </div>
+    </section>
+    </main>
+    
+
+    <footer>
+        <div class="footer-container">
+            <div class="contact-info">
+                <div class="icon-text">
+                    <img src="images/contact-logo/Email-Icon.png" alt="Email-Icon" class="Contact-Icon">
+                    <p><a href="voandalana-amiduvoyageur.mg"  class="info-text">amiduvoyageurvoandalana@gmail.com</a></p>
+                </div>
+                <div class="icon-text">
+                    <img src="images/contact-logo/Phone-Icon.png" alt="Phone-Icon" class="Contact-Icon">
+                    <p class="info-text">+261 34 36 070 82 / +261 34 72 608 16 </p>
+                </div>
+                <div class="icon-text">
+                    <img src="images/contact-logo/Location-Icon.png" alt="Location-Icon" class="Contact-Icon">
+                    <p class="info-text">Lot IVF 219 Abis <br> Ambodihady Ambohimanarina <br>
+                        101 - Antananarivo, Madagascar </p>
+                    
+                </div>
+            </div>
+            
+            <div class="follow-us">
+                <p>Suivez-nous !</p>
+                <div class="icons">
+                    <a href="https://www.facebook.com/krimson.davida" target="_blank">
+                        <img src="images/medias-logo/Facebook-Icon.png" alt="Facebook">
+                    </a>
+                    <a href="https://www.facebook.com" target="_blank">  
+                        <img src="images/medias-logo/X-Icon.png" alt="Twitter">
+                    </a>
+                    <a href="https://www.facebook.com" target="_blank">  
+                        <img src="images/medias-logo/Instagram-Icon.png" alt="Instagram">
+                    </a>
+                    <a href="https://www.facebook.com" target="_blank">  
+                        <img src="images/medias-logo/LinkedIn-Icon.png" alt="LinkedIn">
+                    </a>   
+                </div>
+            </div>
+            
+            <div class="contact-us">
+                <h3>Contact</h3>
+                <p>Nous sommes à votre disposition pour toute question, demande ou commentaire.</p>
+                <a href="contact.html">Écrivez-nous</a>
+            </div>
+            
+        </div>
+    
+        <div class="footer-bottom">
+            <p>&copy; 2024 Voandalana Ami du Voyageur. Tous droits réservés.</p>
+        </div>
+    </footer>
+    
+    
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+
+
